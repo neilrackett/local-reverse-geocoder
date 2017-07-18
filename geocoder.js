@@ -1,3 +1,4 @@
+/**
  * @fileoverview Local reverse geocoder based on GeoNames data.
  * @author Thomas Steiner (tomac@google.com)
  * @license Apache 2.0
