@@ -1,4 +1,3 @@
-/**
  * @fileoverview Local reverse geocoder based on GeoNames data.
  * @author Thomas Steiner (tomac@google.com)
  * @license Apache 2.0
@@ -563,7 +562,7 @@ var geocoder = {
   init: function(options, callback) {
     options = options || {};
     
-    if (debug in options) {
+    if ('debug' in options) {
       DEBUG = !!options.debug;
     }
     
