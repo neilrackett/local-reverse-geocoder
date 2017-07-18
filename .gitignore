@@ -1,4 +1,7 @@
 .DS_Store
-/node_modules
-/geonames_dump
+.project
+.settings
+node_modules
+geonames_dump
 /out
+iisnode

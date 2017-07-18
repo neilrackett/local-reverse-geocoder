@@ -562,6 +562,11 @@ var geocoder = {
 
   init: function(options, callback) {
     options = options || {};
+    
+    if (debug in options) {
+      DEBUG = !!options.debug;
+    }
+    
     if (options.dumpDirectory) {
       GEONAMES_DUMP = options.dumpDirectory;
     }
