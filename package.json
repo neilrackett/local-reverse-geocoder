@@ -15,7 +15,9 @@
     "local"
   ],
   "author": "Thomas Steiner",
-  "contributors": ["Neil Rackett"],
+  "contributors": [
+    "Neil Rackett"
+  ],
   "license": "Apache-2.0",
   "dependencies": {
     "async": "^2.5.0",
