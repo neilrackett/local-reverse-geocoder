@@ -563,7 +563,7 @@ var geocoder = {
     options = options || {};
     
     if ('debug' in options) {
-      DEBUG = !!options.debug;
+      debug.enabled = !!options.debug;
     }
     
     if (options.dumpDirectory) {
